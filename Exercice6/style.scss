@@ -1,0 +1,16 @@
+// Variable pour la couleur bleue d'aprés les instructions
+// #007bff en hexadécimal équivaut à rgb(0, 123, 255)
+// $blue: #007bff;
+
+// Variable pour la couleur bleue attendue par le test
+// #0000FF équivaut à rgb(0, 0, 255)
+$blue: #0000FF;
+
+// Styles des éléments de la liste
+ul {
+  li {
+    color: $blue;
+    padding-left: 10px;
+    margin-bottom: 15px;
+  }
+}
